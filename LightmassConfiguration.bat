@@ -6,11 +6,11 @@ REM **** Variables that can be modified bellow ****
 REM VARIABLE: UnrealVersion. You can choose your version if you have more than one installed 
 REM or want to target an specific release. Supported versions starts with UE 4.24 and up to 4.26 so far.
 REM Defaul is: set UnrealVersion=4.24.
-set UnrealVersion=4.26
+set UnrealVersion=4.27
 
 REM VARIABLE: pUnified. The name of the file that's going to be downloaded for this version
 REM DEFAULT: set pUnified=GPULightmass-UE4.24.1.zip
-set pUnified=GPULightmass-UE4.26.2-release.zip
+set pUnified=GPULightmass-UE4.27.2-release.zip
 
 REM Download URLS can be modified. This URLs contian the GPU Lightmass for a particular version.
 set u7ZIP=https://www.7-zip.org/a/7za920.zip
@@ -21,7 +21,8 @@ set uGPULightmass4254u=https://dl.orangedox.com/7fPK2NJ1Jmx3s8Gtv5?dl=1
 set uGPULightmass426u=https://dl.orangedox.com/KAsDFVpPgoRHoXXtsJ?dl=1
 set uGPULightmass4261u=https://dl.orangedox.com/RiBB5lkdyBuxsXJpNH?dl=1
 set uGPULightmass4262u=https://dl.orangedox.com/6wS2UhrnsHeFEsZAIp?dl=1
-set uGPULightmass=%uGPULightmass4262u%
+set uGPULightmass4272u=https://www.dropbox.com/sh/fog19rn216h2lav/AAALRm46JGMjgLscLWwbNWwoa?dl=1
+set uGPULightmass=%uGPULightmass4272u%
 
 REM TDR Settings
 set iTDRValue=300

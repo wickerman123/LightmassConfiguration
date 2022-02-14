@@ -16,6 +16,7 @@ set uGPULightmass4254=https://dl.orangedox.com/7fPK2NJ1Jmx3s8Gtv5?dl=1
 set uGPULightmass426=https://dl.orangedox.com/KAsDFVpPgoRHoXXtsJ?dl=1
 set uGPULightmass4261=https://dl.orangedox.com/RiBB5lkdyBuxsXJpNH?dl=1
 set uGPULightmass4262=https://dl.orangedox.com/6wS2UhrnsHeFEsZAIp?dl=1
+set uGPULightmass4272=https://www.dropbox.com/sh/fog19rn216h2lav/AAALRm46JGMjgLscLWwbNWwoa?dl=1
 
 REM CONSOLE COLORS AND MESSAGES
 SET mERROR=[31m[7mERRO[0m: 
@@ -120,6 +121,10 @@ set uGPULightmass=%uGPULightmass4262%
 CALL :DOWNLOAD
 CALL :UNZIP
 
+set UnrealVersion=4.27.2
+set uGPULightmass=%uGPULightmass4272%
+CALL :DOWNLOAD
+CALL :UNZIP
 
 ECHO.
 ECHO ALL DONE. Have a good day!
